@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4669534500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verify user should be able to add all details and click on submit",
+        "description": "",
+        "id": "adding-details-in-test-form;verify-user-should-be-able-to-add-all-details-and-click-on-submit",
+        "after": [
+          {
+            "result": {
+              "duration": 901556600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 133393299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TestFormSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95373600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on next button on first page",
+            "match": {
+              "location": "TestFormSteps.iClickOnNextButtonOnFirstPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88737200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have added first name",
+            "match": {
+              "location": "TestFormSteps.iHaveAddedFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76047300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have added last name",
+            "match": {
+              "location": "TestFormSteps.iHaveAddedLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94028400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on next buttn on secondpage",
+            "match": {
+              "location": "TestFormSteps.iClickOnNextButtnOnSecondpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103174900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have drag and dropped file from desktop",
+            "match": {
+              "location": "TestFormSteps.iHaveDragAndDroppedFileFromDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90105600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clicked on next button on draganddrop page",
+            "match": {
+              "location": "TestFormSteps.iClickedOnNextButtonOnDraganddropPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8739200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have added signaure",
+            "match": {
+              "location": "TestFormSteps.iHaveAddedSignaure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99310300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have clicked on signature next button",
+            "match": {
+              "location": "TestFormSteps.iHaveClickedOnSignatureNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220304701,
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003csvg data-name\u003d\"Layer 1\" xmlns\u003d\"http://www.w3.org/2000/svg\" viewBox\u003d\"0 0 83.65 83.47\"\u003e...\u003c/svg\u003e is not clickable at point (1299, 291). Other element would receive the click: \u003cul class\u003d\"jfForm-all form-section page-section form-all transition-all-03s\" id\u003d\"cardAnimationWrapper\" style\u003d\"transform: translate3d(-2820px, 0px, 0px) scale3d(1, 1, 1); transform-origin: 3588px 50% 0px; width: 4998px;\"\u003e...\u003c/ul\u003e\n  (Session info: chrome\u003d96.0.4664.110)\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027LAPTOP-OT5FJEMN\u0027, ip: \u0027192.168.1.170\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [19fed8494351a50f06ef7b479bb75b36, clickElement {id\u003d09cbe09c-6320-46bf-aa80-9805c74b1b16}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\KAJALU~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53305/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (19fed8494351a50f06ef7b479bb75b36)] -\u003e xpath: //span[@aria-label\u003d\u0027Calendar icon\u0027]//*[name()\u003d\u0027svg\u0027]]\nSession ID: 19fed8494351a50f06ef7b479bb75b36\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy22.click(Unknown Source)\r\n\tat com.jotform.form.utility.Utility.clickOnElement(Utility.java:50)\r\n\tat com.jotform.form.pages.HomePage.clickOnCalender(HomePage.java:88)\r\n\tat com.jotform.form.cucumber.steps.TestFormSteps.iHaveSent(TestFormSteps.java:61)\r\n\tat ✽.And I have sent \"\u003cdate\u003e\"(testform.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I have sent \"\u003cdate\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cdate\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "TestFormSteps.iHaveSent(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I should be able to click on next button on date page",
+            "match": {
+              "location": "TestFormSteps.iShouldBeAbleToClickOnNextButtonOnDatePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be abel to select message from dropdown",
+            "match": {
+              "location": "TestFormSteps.iShouldBeAbelToSelectMessageFromDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I should be able to add message",
+            "match": {
+              "location": "TestFormSteps.iShouldBeAbleToAddMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I should be able to click on submit button",
+            "match": {
+              "location": "TestFormSteps.iShouldBeAbleToClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I should be able to see message",
+            "match": {
+              "location": "TestFormSteps.iShouldBeAbleToSeeMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding details in test form",
+    "description": "",
+    "id": "adding-details-in-test-form",
+    "keyword": "Feature",
+    "uri": "testform.feature"
+  }
+]
